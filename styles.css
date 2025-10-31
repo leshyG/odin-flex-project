@@ -1,0 +1,115 @@
+body {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head,
+.copyright {
+    background-color: rgb(25, 25, 87);
+    color: beige;
+    font-size: larger;
+}
+.text {
+    max-width: 500px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+.header, .copyright {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    display: flex;
+    margin: 100px;
+    align-self: center;
+    justify-content: space-around;
+    gap:40px;
+    text-align: center;
+    padding: 50px;
+    flex-wrap:wrap;
+}
+
+.cover {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 5ex solid black;
+    background-color: thistle;
+    padding: 20px;
+}
+
+.body-bottom {
+    background-color: darkgrey;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+
+.author {
+    flex: 1;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.footer {
+    width: 800px;
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    align-self: center;
+    background-color: cadetblue;
+    justify-content: space-between;
+    color: white;
+}
+.text-header {
+    font-weight: 900;
+    font-size: xx-large;
+}
+.text-bottom {
+    font-weight: 300;
+    font-size: small;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+}
+
+.cool-title {
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
